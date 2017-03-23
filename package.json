@@ -1,0 +1,40 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "Game of life adaption",
+  "main": "src/main.js",
+  "dependencies": {
+    "babel-polyfill": "^6.0.16"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^2.0.0",
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.1.2",
+    "css-loader": "^0.15.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeeleyMoore/GameOfLife.git"
+  },
+  "scripts": {
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "keywords": [
+    "Game",
+    "of",
+    "life"
+  ],
+  "author": "Keeley Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeeleyMoore/GameOfLife/issues"
+  },
+  "homepage": "https://github.com/KeeleyMoore/GameOfLife#readme"
+}
